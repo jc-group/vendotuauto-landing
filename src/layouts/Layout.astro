@@ -5,12 +5,46 @@ import '@styles/global.css';
 <!doctype html>
 <html lang="es">
   <head>
+    <!-- 1. Metadatos esenciales -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>Vende tu auto fácil y sin comisiones | Vendotuauto.mx</title>
+    <meta
+      name="description"
+      content="Publica tu coche en minutos y llega a cientos de compradores reales sin pagar comisiones. Encuentra autos únicos y listos para el comprador ideal en Vendotuauto."
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- 2. SEO y canonical -->
+    <link rel="canonical" href="https://vendotuauto.mx/" />
+
+    <!-- 3. Metadatos sociales -->
+    <meta property="og:title" content="Vende tu auto fácil y sin comisiones | Vendotuauto.mx" />
+    <meta
+      property="og:description"
+      content="Publica tu coche en minutos y llega a cientos de compradores reales sin pagar comisiones. Encuentra autos únicos y listos para el comprador ideal en Vendotuauto."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vendotuauto.mx/" />
+    <meta property="og:image" content="/favicon.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vende tu auto fácil y sin comisiones | Vendotuauto.mx" />
+    <meta
+      name="twitter:description"
+      content="Publica tu coche en minutos y llega a cientos de compradores reales sin pagar comisiones. Encuentra autos únicos y listos para el comprador ideal en Vendotuauto."
+    />
+    <meta name="twitter:image" content="/favicon.svg" />
+
+    <!-- 4. Íconos -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg" />
+
+    <!-- 5. Tema -->
+    <meta name="theme-color" content="#EF4444" />
   </head>
+
   <body>
     <slot />
   </body>
