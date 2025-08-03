@@ -1,0 +1,115 @@
+---
+// Este componente es mobile first, estático y listo para usar.
+// Puedes hacerlo dinámico pasando props o leyendo desde un JSON.
+---
+
+<section class="py-12 md:py-20 bg-white">
+  <div class="max-w-3xl md:max-w-5xl mx-auto px-4 md:px-12">
+    <h2 class="text-2xl md:text-4xl font-bold text-gray-900 mb-6 md:mb-10 text-center">
+      Cómo funciona <span class="text-[#EF4444]">VendoTuAuto</span>
+    </h2>
+
+    <ol
+      class="space-y-8 md:space-y-12 border-l border-gray-200 pl-4 md:pl-8 md:max-w-2xl md:mx-auto"
+    >
+      <!-- Paso 1 -->
+      <li class="relative flex items-start pl-6">
+        <span class="mt-1 mr-3 text-[#EF4444]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6 text-[#EF4444]"
+          >
+            <path
+              d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z"
+            ></path>
+            <path
+              d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z"
+            ></path>
+          </svg>
+        </span>
+        <div>
+          <h3 class="text-base font-semibold text-gray-900">Crea el perfil de tu coche</h3>
+          <p class="text-sm text-gray-600 text-justify md:text-left">
+            Introduce los detalles de tu coche, incluyendo marca, modelo, año, estado y fotos.
+          </p>
+        </div>
+      </li>
+
+      <!-- Paso 2 -->
+      <li class="relative flex items-start pl-6">
+        <span class="mt-1 mr-3 text-[#EF4444]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6 text-[#EF4444]"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 4.875C3 3.839 3.84 3 4.875 3h4.5c1.036 0 1.875.84 1.875 1.875v4.5c0 1.036-.84 1.875-1.875 1.875h-4.5A1.875 1.875 0 0 1 3 9.375v-4.5ZM4.875 4.5a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375h-4.5Zm7.875.375c0-1.036.84-1.875 1.875-1.875h4.5C20.16 3 21 3.84 21 4.875v4.5c0 1.036-.84 1.875-1.875 1.875h-4.5a1.875 1.875 0 0 1-1.875-1.875v-4.5Zm1.875-.375a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375h-4.5ZM6 6.75A.75.75 0 0 1 6.75 6h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75A.75.75 0 0 1 6 7.5v-.75Zm9.75 0A.75.75 0 0 1 16.5 6h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75ZM3 14.625c0-1.036.84-1.875 1.875-1.875h4.5c1.036 0 1.875.84 1.875 1.875v4.5c0 1.035-.84 1.875-1.875 1.875h-4.5A1.875 1.875 0 0 1 3 19.125v-4.5Zm1.875-.375a.375.375 0 0 0-.375.375v4.5c0 .207.168.375.375.375h4.5a.375.375 0 0 0 .375-.375v-4.5a.375.375 0 0 0-.375-.375h-4.5Zm7.875-.75a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75Zm6 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75ZM6 16.5a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75Zm9.75 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75Zm-3 3a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75Zm6 0a.75.75 0 0 1 .75-.75h.75a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75h-.75a.75.75 0 0 1-.75-.75v-.75Z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </span>
+        <div>
+          <h3 class="text-base font-semibold text-gray-900">Genera tu código QR</h3>
+          <p class="text-sm text-gray-600 text-justify md:text-left">
+            AutoQR genera un código QR único y un PDF que contiene toda la información de tu coche.
+          </p>
+        </div>
+      </li>
+
+      <!-- Paso 3 -->
+      <li class="relative flex items-start pl-6">
+        <span class="mt-1 mr-3 text-[#EF4444]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6 text-[#EF4444]"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </span>
+        <div>
+          <h3 class="text-base font-semibold text-gray-900">Comparte tu perfil</h3>
+          <p class="text-sm text-gray-600 text-justify md:text-left">
+            Comparte tu código QR por redes sociales, mensajería o imprímelo para mostrarlo
+            fácilmente.
+          </p>
+        </div>
+      </li>
+
+      <!-- Paso 4 -->
+      <li class="relative flex items-start pl-6">
+        <span class="mt-1 mr-3 text-[#EF4444]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6 text-[#EF4444]"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+              clip-rule="evenodd"></path>
+            <path
+              d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z"
+            ></path>
+          </svg>
+        </span>
+        <div>
+          <h3 class="text-base font-semibold text-gray-900">Conéctate con compradores</h3>
+          <p class="text-sm text-gray-600 text-justify md:text-left">
+            Los compradores escanean tu QR o descargan el PDF para ver tu coche y contactarte
+            directamente.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
